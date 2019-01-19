@@ -26,11 +26,11 @@
          </a>
          <div class="dropdown-menu">
            <a class="dropdown-item" href="responsive.html">All</a>
-           <a class="dropdown-item" href="#">Flex site</a>
-           <a class="dropdown-item" href="#">Free video</a>
-           <a class="dropdown-item" href="#">Recepti</a>
-           <a class="dropdown-item" href="#">Sumarak</a>
-           <a class="dropdown-item" href="#">Serbian dogs</a>
+           <a class="dropdown-item" href="https://dusanrandjelovic.github.io/flexsajt/" target="_blank">Flex site</a>
+           <a class="dropdown-item" href="https://dusanrandjelovic.github.io/dusan/" target="_blank">Free video</a>
+           <a class="dropdown-item" href="https://dusanrandjelovic.github.io/story/" target="_blank">Story</a>
+           <a class="dropdown-item" href="https://codepen.io/dusanrandjelovic/full/YxgGpp/" target="_blank">Sumarak</a>
+           <a class="dropdown-item" href="https://codepen.io/dusanrandjelovic/full/RqvomN/" target="_blank">Free photos</a>
          </div>
         </li>
 
@@ -39,9 +39,10 @@
            API apps
          </a>
          <div class="dropdown-menu">
-           <a class="dropdown-item" href="#">Song search</a>
-           <a class="dropdown-item" href="#">Star Wars</a>
-           <a class="dropdown-item" href="#">Pokemon</a>
+           <a class="dropdown-item" href="api.html">All</a>
+           <a class="dropdown-item" href="https://dusanrandjelovic.github.io/songsearch/" target="_blank">Song search</a>
+           <a class="dropdown-item" href="https://dusanrandjelovic.github.io/starwars/" target="_blank">Star Wars</a>
+           <a class="dropdown-item" href="https://dusanrandjelovic.github.io/pokemon/" target="_blank">Pokemon</a>
          </div>
        </li>
 
@@ -55,39 +56,46 @@
         </ul>
       </div>
         </nav>
-        <div class="col-md-4">
+        <div class="col-md-7">
         <h1>Contact me.</h1>
         <form action="" method="post">
+          <div>
            <label for="ime">Name: </label>
-           <input id="ime" name="ime"><br>
+           <input id="ime" name="ime" required><br>
+         </div>
+         <div>
            <label for="email">Email: </label>
-           <input id="email" name="email" type="email">
-           <textarea name="poruka" rows="8" cols="50" placeholder="Write your message..."></textarea>
+           <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+         </div>
+         <div>
+           <label for="poruka"> </label>
+           <textarea name="poruka" rows="8" placeholder="Write your message..." required></textarea>
+         </div>
+         <div class="dugme">
            <button>Submit</button>
+         </div>
           </form>
     </div>
     </div>
-<h1>See map</h1>
+<h2 class="text-center" style="font-weight: 400; padding: 2% 1%;">See map</h2>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429173.5425971158!2d-97.01173948554714!3d32.820929607291816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2z0JTQsNC70LDRgSwg0KLQtdC60YHQsNGBLCDQodGY0LXQtNC40ZrQtdC90LUg0JTRgNC20LDQstC1!5e0!3m2!1ssr!2srs!4v1547745994155"
 width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div class="container" id="osmideo">
    <div class="row">
    <div class="col-sm-3">
     <img src="dura.png" class="logo">
-    <p>DuRa</p>
+    <p>&copy; DuRa</p>
    </div>
    <div class="col-sm-6">
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   <p>It says down that copyright belongs to me, but it means only that I made this skup of images, words and data.
+     All this photos are free to use and make website more powerful. This is my forth portfolio. First two were not
+      responsive. I will show them when I redesign them. Or maybe you find them before. Next step is more dynamic site.</p>
    </div>
-   <div class="col-sm-3">
-   <h3>Links</h3>
-   <a href="">lllll</a>
-   <a href="">lllll</a>
-   <a href="">llllllll</a>
-   <a href="">llllll</a>
+   <div class="col-sm-3 text-center">
+     <p><a href="responsive.html">Responsive sites</a></p>
+    <p> <a href="api.html">API apps</a></p>
+     <p><a href="wordpress.html">WordPress</a></p>
+    <p> <a href="contact.html">Contact</a></p>
    </div>
    </div>
 
@@ -99,11 +107,11 @@ width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></ifr
       <p>Design by DuRa</p>
    </div>
    <div class="col-sm-5">
-     <p>&copy; Dusan Randjelovic, All rights reserved</p>
+     <p>&copy; Dušan Ranđelović, All rights reserved</p>
    </div>
    <div class="col-sm-3">
 
-    <a href="#gore">Vrh</a>
+    <a href="#gore">Top</a>
 
    </div>
    </div>

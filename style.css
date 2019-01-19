@@ -49,6 +49,18 @@ img {
   opacity: 0.8;
   border: 3px solid black;
 }
+#demo a {
+  color: saddlebrown;
+  text-decoration: none;
+}
+#demos a {
+  color: saddlebrown;
+  text-decoration: none;
+}
+#demose a {
+  color: saddlebrown;
+  text-decoration: none;
+}
 #trecideo img {
   border: 1px solid black;
   border-radius: 4px;
@@ -73,6 +85,9 @@ img {
   padding-top: 4.4%;
   padding-bottom: 4.4%;
 }
+#cetvrtideo .col-sm-4 {
+    margin-bottom: 26px;
+}
 #cetvrtideo h2 {
   font-weight: 400;
 }
@@ -86,6 +101,13 @@ img {
 #cetvrtideo .dodatno:hover {
   background-color: saddlebrown;
   color: white;
+}
+.logo2 {
+  width: 80px;
+  height: 80px;
+}
+.logo2:hover {
+  opacity: 0.8;
 }
 .row {
   padding-top: 1.2%;

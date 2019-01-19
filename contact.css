@@ -19,18 +19,83 @@ img {
   height: 100vh;
   background-attachment: fixed;
 }
-.jumbotron .col-md-4 {
+.jumbotron .col-md-7 {
   color: white;
   margin-top: 30px;
 }
+.jumbotron .col-md-7 h1 {
+  font-weight: 400;
+}
+form {
+  padding: 1.7%;
+  display: flex;
+  flex-direction: column;
+
+}
 label {
-  width: 22%;
+  width: 76px;
 }
 input {
-  width: 57%;
+  width: 290px;
   font-size: 16px;
+}
+textarea {
+  width: 290px;
+}
+button {
+  color: white;
+  background: black;
+  border: 1px solid white;
+  border-radius: 6px;
+  outline-style: none;
+}
+.dugme {
+  margin-left: 81px;
+}
+button:hover {
+  cursor: pointer;
+  color: black;
+  background: white;
 }
 #osmideo {
   padding-top: 5%;
   padding-bottom: 3%;
+}
+#osmideo {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+#osmideo a {
+  color: saddlebrown;
+}
+footer a {
+  color: saddlebrown;
+}
+footer a:hover {
+  color: sienna;
+    text-decoration: none;
+}
+@media (max-width: 850px){
+  label {
+    width: 65px;
+  }
+  input {
+    width: 265px;
+    font-size: 16px;
+  }
+  textarea{
+    width: 265px;
+  }
+}
+@media (max-width: 748px){
+  label {
+    width: 70px;
+  }
+  input {
+    width: 274px;
+    font-size: 16px;
+  }
+  textarea{
+    width: 274px;
+  }
 }
