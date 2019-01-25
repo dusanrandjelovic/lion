@@ -42,7 +42,7 @@ input {
 textarea {
   width: 290px;
 }
-button {
+.dugme button {
   color: white;
   background: black;
   border: 1px solid white;
@@ -52,7 +52,7 @@ button {
 .dugme {
   margin-left: 81px;
 }
-button:hover {
+.dugme button:hover {
   cursor: pointer;
   color: black;
   background: white;
