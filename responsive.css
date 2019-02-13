@@ -8,6 +8,23 @@ body {
 img {
   max-width: 100%;
 }
+nav li a {
+  color: white;
+}
+nav li a:hover {
+  color: grey;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  color: white;
+  background-color:grey;
+}
+.dropdown-menu {
+  background-color: black;
+  border: 1px solid grey;
+}
 .logo {
   width: 70px;
   height: 70px;
@@ -48,6 +65,9 @@ img {
   color: white;
 }
 #donjired {
+  padding-top: 1.8%;
+}
+#donjired2 {
   padding-top: 1.8%;
 }
 .logo2 {

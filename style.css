@@ -8,6 +8,23 @@ body {
 img {
   max-width: 100%;
 }
+nav li a {
+  color: white;
+}
+nav li a:hover {
+  color: grey;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  color: white;
+  background-color:grey;
+}
+.dropdown-menu {
+  background-color: black;
+  border: 1px solid grey;
+}
 .logo {
   width: 70px;
   height: 70px;
@@ -162,18 +179,18 @@ img {
     color: white;
     margin-left: 2%;
   }
-  .jumbotron3 button {
+  .jumbotron3 a {
     padding: 10px;
     color: white;
     background: black;
     border: 1px solid white;
-    margin-right: 2%;
+    margin-left: 2%;
   }
 
-  .jumbotron3 button:hover {
-    cursor: pointer;
+  .jumbotron3 a:hover {
+    text-decoration: none;
     color: black;
-    background: -webkit-linear-gradient(snow, mintcream);
+    background: linear-gradient(snow, mintcream);
   }
 #osmideo {
   padding-top: 5%;
